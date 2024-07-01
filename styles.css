@@ -6,8 +6,10 @@ body {
 }
 
 header {
-    background-color: #f8f9fa;
+    background-color: #ffc0cb;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;  
     text-align: center;
 }
 
@@ -54,6 +56,8 @@ footer {
 form {
     display: flex;
     flex-direction: column;
+    max-width: 400px; 
+    margin: 0 auto;
 }
 
 form label {
